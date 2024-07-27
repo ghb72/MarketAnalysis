@@ -1,0 +1,295 @@
+/* This is my first version of css */
+
+body {
+    background-color: #111;
+    font-family: 'Roboto';
+}
+
+.dashboard-container {
+    width: 100%;
+    height: 95vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #111;
+    /* border: 1px solid #cccccc; */
+    border-radius: 10px;
+    display: flex;
+}
+
+
+.left-side {
+    width: 25%;
+    height: 95%;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #3a3a3a;
+}
+
+.left-texts {
+    /* border: 1px solid white; */
+    margin: 15px;
+    margin-top: 15px;
+}
+
+.controls {
+    /* border: 1px solid white; */
+    overflow-y: auto;
+    margin-bottom: 15px;
+    height: 50%;
+    flex: 1;
+}
+
+.picker-period-time {
+    margin: 15px;
+    margin-top: 15px;
+    height: fit-content;
+}
+
+/* Estilo general del contenedor */
+
+/* Estilo de los inputs */
+.date-picker-range input {
+    background-color: #111;
+    border: 1px solid #555;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 12pt;
+}
+
+.DateInput {
+    width: 43%;
+    color: #111;
+    background-color: #111;
+    border: none;
+
+}
+
+
+/* Estilo del calendario */
+.DateRangePickerInput {
+    background-color: #111;
+    border: none;
+}
+
+
+.DateRangePickerInput__showClearDates {
+    color: #fff;
+}
+
+.DayPicker {
+    background-color: #111;
+}
+
+.DayPicker__withBorder {
+    border: 1px solid #444;
+}
+
+.CalendarMonth {
+    background-color: #111;
+    color: #fff;
+}
+
+.CalendarMonth_caption {
+    color: #fff;
+}
+
+.DayPicker_weekHeader {
+    color: #fff;
+}
+
+.CalendarDay__default {
+    background-color: #3c3c3c;
+    border: 1px solid #555;
+    color: #fff;
+}
+
+.CalendarDay__hovered_span,
+.CalendarDay__selected,
+.CalendarDay__selected_span {
+    background-color: #555;
+    border: 1px solid #777;
+    color: #fff;
+}
+
+
+
+.stocks-input {
+    margin: 15px;
+    height: fit-content;
+}
+
+#input-share {
+    background-color: unset;
+    width: 60%;
+    height: 38px;
+    padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+    background-color: #111;
+    /* border: 1px solid #D1D1D1; */
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box; 
+    font-family: inherit;
+    font-size: inherit;
+}
+
+button {
+    width: 40%;
+    background-color: #5a5a5a;
+    color: #ffffff;
+    border: 1px solid #3a3a3a;
+    border-radius: 4px;
+    padding: 0 30px;
+    text-align: center;
+    height: 38px;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    white-space: inherit;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #6a6a6a;
+}
+
+
+.stocks-list {
+    margin-left: 15px;
+    margin-right: 15px;
+    height: fit-content;
+}
+
+
+.Select-control {
+    background-color: #111;
+    border: 1px solid #444;
+}
+
+.Select-value, .Select-value-label {
+    color: #ccc;
+    /* border: 1px solid #444; */
+}
+.Select, .Select-menu-outer, .Select-multi-value-wrapper,
+.Select-arrow-zone, .Select-clear-zone,  .Select-input {
+    background-color: #111;
+    color: #ccc;
+}
+
+
+.sigma-range {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    height: 10%;
+    /* border: 1px solid white; */
+    /* background-color: yellow; */
+}
+
+/* ALL RIGHT SIDE */
+
+.right-side {
+    width: 75%;
+    height: 95%;
+    margin-top: 15px;
+    margin-right: 15px;
+    /* background-color: lightblue; */
+    /* border: 1px solid white; */
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 100vh;
+    overflow-y: auto;
+    /* height: 100vh; */
+}
+
+.right {
+    box-sizing: border-box;
+    /* border: 1px solid white; */
+    margin: 2%;
+    /* background-color: grey; */
+}
+
+.Graph-price {
+    flex: 1 1 42%;
+    height: fit-content;
+    margin-right: 1.5%;
+
+}
+
+.Graph-volume {
+    height: fit-content;
+    flex: 1 1 42%;
+    margin-left: 1.5%;
+}
+
+.graph-texts {
+    height: fit-content;
+    align-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    flex: 1 1 100%;
+}
+
+.heatmap-graph {
+    /* height: 250px; */
+    flex: 1 1 32%;
+}
+
+.heatmap-explanation {
+    /* height: 250px; */
+    flex: 1 1 52%;
+    align-content: center;
+}
+
+.pie-explanation {
+    height: 250px;
+    flex: 1 1 52%;
+    align-content: center;
+}
+
+.pie-graph {
+    /* height: 250px; */
+    flex: 1 1 32%;
+}
+
+.bar-graph{
+    /* height: 250px; */
+    flex: 1 1 32%;
+}
+
+.bar-explanation {
+    height: 250px;
+    flex: 1 1 52%;
+    align-content: center;
+}
+
+/* All texts */
+h1, h2, h3, h4, h5, h6 {
+    color: #bbb;
+}
+
+h1 {
+    margin: 15px;
+    margin-top: 0;
+    /* background-color: aqua; */
+    /* border: 1px solid white; */
+    font-size: 30pt;
+    text-align: center;
+}
+
+p {
+    color: #bbb;
+    margin: 15px;
+    font-size: 14px;
+    text-align: justify;
+    font-weight: 400;
+}
