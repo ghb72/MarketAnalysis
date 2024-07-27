@@ -227,6 +227,8 @@ app.layout = dbc.Container(
     className='dashboard-container'
 )
 
+server = app.server
+
 if __name__ == '__main__':
     app.run(debug=True, jupyter_mode='external')
 
