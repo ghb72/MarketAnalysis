@@ -2,5 +2,5 @@ dash
 pandas
 plotly
 scipy
-yfinance==0.2.40
-gnunicorn
+yfinance
+gunicorn
