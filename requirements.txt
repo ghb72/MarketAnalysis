@@ -3,5 +3,4 @@ pandas
 plotly
 scipy
 yfinance
-datetime
 gnunicorn
