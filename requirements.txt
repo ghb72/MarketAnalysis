@@ -1,0 +1,7 @@
+dash
+pandas
+plotly
+scipy
+yfinance
+datetime
+gnunicorn
